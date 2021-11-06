@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  font-family: "Ubuntu" ;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+.wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+/* header */
+.header{
+  background: #4EBEFE;
+  background: -webkit-linear-gradient(top left, #4EBEFE, #3790D9);
+  background: -moz-linear-gradient(top left, #4EBEFE, #3790D9);
+  background: linear-gradient(to bottom right, #4EBEFE, #3790D9);
+  color: #ffff;
+}
+.logo{
+  margin: 70px 0 50px 0;
+}
+
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 210px;
+}
+
+.header__block{
+  flex:1;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+ h1{
+  font-size: 37px;
+  font-family: "Ubunitu";
+  font-weight: 700;
+  padding: 0 0 50px 0;
+  line-height: 49px;
+}
+
+.header__block span{
+  font-size: 57px;
+}
+
+.header__block p{
+  margin-bottom: 40px;
+}
+
+.btn{
+  color: #000;
+  text-decoration: none;
+  background-color: #FFD429;
+  padding: 15px 60px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 25px;
+  font-size: 15px;
+}
+.header__img{
+  flex:1;
+  width: 519px;
+}
+
+.what{
+  margin: 100px 0 100px 0;
+}
+h2{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.what {
+  text-align: center;
+}
+
+.section__contant{
+  margin: 80px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+
+.contant__block{
+  flex: 1;
+  text-align: center;
+  margin-right: 50px;
+  
+}
+
+.contant__block h3{
+  margin: 30px 0 15px 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.section__form{
+  background-color: #ECF3F8;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 50px 0 100px 0;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.form__window{
+
+  width: 340px;
+  height: 50px;
+  margin: 0 0 15px 0;
+  border-color: #BBBBBB;
+  border-radius: 5px;
+  padding-left: 20px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.form-btn{
+  width: 250px;
+}
+
+.footer{
+  background-color: #164D7A;
+  text-align: center;
+  padding: 60px 0;
+}
+
