@@ -163,7 +163,7 @@ input, select {
 }
 .header__img{
   flex:1;
-  width: 70%;
+  max-width: 70%;
 }
 
 .what{
@@ -190,7 +190,7 @@ h2{
 
 @media screen and (max-width: 1457px){
   .header__img{
-    max-width: 90%;
+    max-width: 65%;
     
   }
 
