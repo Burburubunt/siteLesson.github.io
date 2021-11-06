@@ -125,6 +125,7 @@ input, select {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
+  padding-right: 50px;
 }
 
  h1{
@@ -157,10 +158,13 @@ input, select {
 
 .btn:hover{
   background-color: #e9bd0e;
+  font-size: 17px;
+  box-shadow: 1px 3px #000;
 }
 .header__img{
   flex:1;
-  max-width: 519px;
+  
+  max-width: 100%;
 }
 
 .what{
@@ -179,16 +183,42 @@ h2{
 .section__contant{
   margin: 80px 0 0 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  /* align-items: center; */
   font-size: 15px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+}
+
+@media screen and (max-width: 1457px){
+  .header__img{
+    max-width: 90%;
+    
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+  .header__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header__img{
+    width: 70%;
+  }
+  .contant__block{
+    min-width: 45%;
+    margin: 20px 20px 0 0;
+  }
 }
 
 .contant__block{
   flex: 1;
   text-align: center;
-  
+  justify-content: space-between;
+  max-width: 30%;
+  margin-bottom: 15px; 
 }
 
 .contant__block h3{
