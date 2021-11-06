@@ -163,6 +163,7 @@ input, select {
 }
 .header__img{
   flex:1;
+  
   max-width: 45%;
 }
 
@@ -188,10 +189,11 @@ h2{
   flex-wrap: wrap; 
 }
 
-@media screen and (max-width: 1457px){
-  .header__img{
-    max-width: 65%;
-    
+@media screen and (max-width: 1140px){
+  .header__wrapper{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 
 }
