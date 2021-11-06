@@ -163,7 +163,7 @@ input, select {
 }
 .header__img{
   flex:1;
-  max-width: 70%;
+  max-width: 45%;
 }
 
 .what{
